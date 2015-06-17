@@ -1,0 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+
+
+h1 { color: blue; background: rgba(255,245,41,0.5);font-family:"indie flower"; font-size:100px; text-align: center;background-image: url("bocajuniors.jpg");height: 337px}
+h3{color: red;font-family: sans-serif}
+body{background: rgba(76,69,255,1);}
+p{background-color: #feff3c; font-family: "indie flower";text-align: justify;line-height: 3rem}
+/*tr:nth-child(even){background-color: gold;}*/
+/*tr:nth-child(odd){background-color: cornflowerblue;}*/
+th{background-color: black;color: floralwhite;}
+a:visited{color: chartreuse}
+a:hover {background-color: yellow;}
+a:active {color: crimson;}
+table{color: #feff3c; background-image: url("henny.jpg");background-size: 530px,50px; padding:3rem ;}
