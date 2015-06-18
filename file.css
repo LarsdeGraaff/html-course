@@ -1,14 +1,57 @@
 @import url(http://fonts.googleapis.com/css?family=Indie+Flower);
 
 
-h1 { color: blue; background: rgba(255,245,41,0.5);font-family:"indie flower"; font-size:100px; text-align: center;background-image: url("bocajuniors.jpg");height: 337px}
-h3{color: red;font-family: sans-serif}
+h1 { color: blue;
+    background: rgba(255,245,41,0.5);
+    font-family:"indie flower";
+    font-size:100px;
+    text-align: center;
+    background-image: url("bocajuniors.jpg");
+    height: 337px}
+h1:hover{transform: skew(360deg);
+    transition: transform 5s linear}
+h3{color: red;
+    font-family: sans-serif}
+h3:hover{transform: skew(360deg);
+    transition: transform 10s ease;}
 body{background: rgba(76,69,255,1);}
-p{background-color: #feff3c; font-family: "indie flower";text-align: justify;line-height: 3rem}
+p{text-shadow: 5px 5px 5px blue;
+    background-color: #feff3c;
+    font-family: "indie flower";
+    text-align: justify;
+    line-height: 3rem;
+
+    }
 /*tr:nth-child(even){background-color: gold;}*/
 /*tr:nth-child(odd){background-color: cornflowerblue;}*/
-th{background-color: black;color: floralwhite;}
+th{background-color: black;
+    color: floralwhite;}
 a:visited{color: chartreuse}
 a:hover {background-color: yellow;}
 a:active {color: crimson;}
-table{color: #feff3c; background-image: url("henny.jpg");background-size: 530px,50px; padding:3rem ;}
+table{color: #feff3c;
+    background-image: url("henny.jpg");
+    background-size: 530px,50px;
+    padding:3rem;}
+.bacojun{ background-size:20px ;
+    background-image:url("voetbal.png") ;
+    background-color: #feff3c;
+    background-position: 5px 22px;
+    padding: 1rem;
+    font-family: "indie flower";
+    background-repeat: no-repeat;
+    margin-left: 1rem;
+    font-size: x-large;
+    height: 20px;
+    width:100px;
+    text-shadow: 5px 5px 5px blue;
+}
+/* transform & transition gaat niet op span */
+.bacojun:hover{transform: rotate(360deg);
+    transition: transform 10s ease;}
+
+.bal{background-image: url("voetbal.png");background-position: 5px 22px;}
+.bal:hover{transform: rotate(360deg);
+    transition: transform 10s}
+
+.voetbal:hover{background-image: url("voetbal.png");}

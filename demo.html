@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style type="text/css">
+        div{
+            border: 1px solid black;
+
+        }
+
+    </style>
+
+</head>
+<body>
+<button id="mybutton">click me</button>
+<div id="out"></div>
+
+
+<script type="application/javascript">
+
+    var b = document.getElementById("mybutton");
+
+
+    console.log("ik ga nu javascript uitvoeren");
+    b.onclick = function(){
+        var o = document.getElementById("out");
+        o.innerHTML = "welkom op mijne site";
+    };
+</script>
+
+</body>
+</html>
