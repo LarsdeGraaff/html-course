@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Indie+Flower);
 
-
+button{font-weight: bold}
 h1 { color: blue;
     background: rgba(255,245,41,0.5);
     font-family:"indie flower";
@@ -12,16 +12,18 @@ h1:hover{transform: skew(360deg);
     transition: transform 5s linear}
 h3{color: red;
     font-family: sans-serif}
-h3:hover{transform: skew(360deg);
-    transition: transform 10s ease;}
-body{background: rgba(76,69,255,1);}
+
+body{background: rgba(76,69,255,1);background-image: url("stadionboca.jpg");background-repeat: no-repeat;background-position: center}
 p{text-shadow: 5px 5px 5px blue;
-    background-color: #feff3c;
+
     font-family: "indie flower";
     text-align: justify;
     line-height: 3rem;
+    );
 
     }
+.testGradient{background: linear-gradient(45deg,yellow,#feff3c,yellow,#feff3c,yellow,#feff3c,yellow,#feff3c)}
+.fb-page{width: 200px}
 /*tr:nth-child(even){background-color: gold;}*/
 /*tr:nth-child(odd){background-color: cornflowerblue;}*/
 th{background-color: black;
@@ -55,3 +57,51 @@ table{color: #feff3c;
     transition: transform 10s}
 
 .voetbal:hover{background-image: url("voetbal.png");}
+
+
+/*tabel*/
+
+
+tr:nth-child(even) { background-color: #d3d3d3; }
+tr:nth-child(odd) { background-color: #a9a9a9; }
+tr:first-child {
+    background-color: black;
+    color: white;
+    font-weight: bold;}
+
+/*  menustyles  */
+
+ul.menu{display: block;width: 60px}
+.menu{display: block;width:100px}
+
+/* testmenu  */
+#navcontainer ul
+{
+    padding: .2em 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #036;
+    color: #FFF;
+    width: 100%;
+    font: normal 90% arial, helvetica, sans-serif;
+    text-align: center;
+}
+
+li { display: inline; }
+
+li a
+{
+    text-decoration: none;
+    background-color: #036;
+    color: #FFF;
+    padding: .2em 1em;
+    border-right: 1px solid #fff;
+}
+
+li a:hover
+{
+    background-color: #369;
+    color: #fff;
+}
+
+.fb-page{width: 500px}

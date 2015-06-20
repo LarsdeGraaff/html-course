@@ -1,0 +1,123 @@
+body{background-image: url("BACO%20JUNIORS%20HEADIMAGE.jpg");
+    background-repeat: no-repeat;
+    background-color: #336699;
+    font-family: Arial}
+
+.links{padding-top: 350px;
+    left: 50%;}
+.links a:link{text-decoration: none;
+    padding: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    color: gold;
+    border: outset;
+    border-color: gold;
+    border-radius: 10px;
+    background-color: #003366}
+.links a:hover{background-color: #003366;
+    color: #feff3c;
+    border-radius: 10%;
+    font-size: 20px;
+    }
+.links a:visited{color: gold;}
+.nieuwsberichten{border-color: gold;
+    border: 1px;
+    width: 1000px ;
+    float: left;
+    padding-top: 10px }
+.nieuwsberichten a:link{text-decoration: underline;
+    font-weight: bold}
+.nieuwsberichten a:hover{text-decoration: underline;
+    font-weight: bold;
+    font-size:20px;
+    }
+.nieuwsberichten table{background: radial-gradient(circle at center,gold 0%, lightblue 100%);
+    border-color: blue;
+    text-align: center;
+    border-radius: 5px;
+    }
+.rangschikkingtabel table{background: radial-gradient(circle at center,gold 0%, lightblue 100%);
+    border-color: blue;
+    text-align: center;
+    border-radius: 5px;}
+.kalender table{
+    background: radial-gradient(circle at center,gold 0%, lightblue 100%);
+    border-color: blue;
+    text-align: center;
+    border-radius: 5px;
+
+}
+.rangschikkingtabel a:visited{color: blue}
+.rangschikkingtabel {border-color: gold;
+    border: 1px;
+    width: 1000px ;
+    float: left;
+    padding-top: 10px}
+.nieuws{border-radius: 25px;
+    border: 1px;display: block}
+
+.fb-page{width: 500px;
+    }
+ p{background-color: #feff3c;
+    padding: 25px;
+    border-radius: 25px;
+    text-align: justify;}
+.nieuws a:link{color: #336699}
+.nieuws a:visited{color: #336699}
+.activiteiten{float: right;
+    horiz-align: center;
+    border-radius: 25px;
+    padding-top: 10px}
+
+
+.minikalender table{
+        border-color: gold;
+    background-image: url("");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: gold;
+    border-radius: 25px;
+
+
+}
+.fb {background-color: gold;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+.tabel {width: 1000px ;
+    float: left;
+    padding-top: 10px }
+.ploegfoto {width: 1000px ;
+    float: left;
+    font-size: large;
+}
+.rangschikking {border-color: gold;
+    border: 1px;
+    width: 1000px ;
+    float: left;
+    padding-top: 10px}
+.fotos {width: 1000px ;
+    float: left;
+    padding-top: 10px}
+.iforum {width: 1000px;
+    float: left;
+    padding-top: 10px}
+.kalender {width: 1000px ;
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+    }
+.filmpje p{background-color: gold}
+
+.blockquote {background-color: bisque }
+.uitslagbrabant {width: 1000px ;float: left}
+.oudernieuws {text-align: center}
+.verslagfoetsoul {padding-top: 10px}
+/* nieuwsberichten */
+.lijstrdcl {background-color: #feff3c;
+    padding: 25px;
+    border-radius: 25px;}
+.onwelwrdn {background-color: #feff3c;
+    padding: 25px;
+    border-radius: 25px;}
