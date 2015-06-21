@@ -56,6 +56,17 @@ body{background-image: url("BACO%20JUNIORS%20HEADIMAGE.jpg");
 .nieuws{border-radius: 25px;
     border: 1px;display: block}
 
+.fotonoel {float: left;
+    padding-right: 10px;
+   }
+.fotoReanimatie {float: left;
+    padding-right: 10px;}
+.fotoMatch {float: left;
+    padding-right: 10px;}
+.fotoParadox{background-color: gold;
+    text-align: center  ;
+   }
+
 .fb-page{width: 500px;
     }
  p{background-color: #feff3c;
@@ -84,7 +95,13 @@ body{background-image: url("BACO%20JUNIORS%20HEADIMAGE.jpg");
     border-radius: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: center;
     }
+.fbParadox { background-color: gold;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;}
 .tabel {width: 1000px ;
     float: left;
     padding-top: 10px }
